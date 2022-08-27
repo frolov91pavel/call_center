@@ -3,7 +3,7 @@ import java.util.concurrent.BlockingQueue;
 
 public class ATC implements Runnable {
 
-    int count = 10;
+    int count = 60;
     int sleep = 1000;
     BlockingQueue<String> calls = new ArrayBlockingQueue<>(60);
 
